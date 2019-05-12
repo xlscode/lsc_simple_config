@@ -1,10 +1,10 @@
-#lsc_simple_config gem
+# lsc_simple_config gem
 
 A simple config (ini) file parser for files similar to the ones
 used in PHP with parse_ini_file() or in Turbo/Borland Pascal.
 Suitable, when using formats like yaml, xlm or the like would be an exageration.
 
-###Config file format:
+### Config file format:
 
 * a single variable
 
@@ -22,7 +22,7 @@ Suitable, when using formats like yaml, xlm or the like would be an exageration.
 
 All lines not containing the '=' sign are ignored.
 
-###Usage:
+### Usage:
 
   ```ruby
   require lsc_simple_config
@@ -36,7 +36,7 @@ All lines not containing the '=' sign are ignored.
 
 The returned values are strings.
 
-###TODO/Plans
+### TODO/Plans
 
 * add some data validation
 * add sections in config files
